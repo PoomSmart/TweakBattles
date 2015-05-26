@@ -1,0 +1,9 @@
+Package: org.thebigboss.kbtype
+Name: KBType
+Depends: mobilesubstrate, firmware (>= 5.0)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Choose keyboard variant.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks

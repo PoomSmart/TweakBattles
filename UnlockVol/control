@@ -1,0 +1,9 @@
+Package: org.thebigboss.unlockvol
+Name: UnlockVol
+Depends: mobilesubstrate, firmware (>= 4.0)
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: Allow adjusting volume from lockscreen.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks

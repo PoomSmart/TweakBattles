@@ -1,0 +1,9 @@
+Package: org.thebigboss.emoshortcut
+Name: EmoShortcut
+Depends: mobilesubstrate, firmware (>= 5.1)
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Emoji as a shortcut.
+Maintainer: PoomSmart
+Author: PoomSmart
+Section: Tweaks
