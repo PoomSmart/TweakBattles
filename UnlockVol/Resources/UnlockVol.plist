@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+  	<key>title</key>
+    <string>UnlockVol</string>
+  	<key>entry</key>
+	<dict>
+      <key>cell</key>
+      <string>PSLinkCell</string>
+      <key>icon</key>
+      <string>UV.png</string>
+      <key>label</key>
+      <string>UnlockVol</string>
+    </dict>
+	 <key>items</key>
+    <array>
+    <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>label</key>
+        <string>Kill switch</string>
+      </dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>com.apple.springboard</string>
+		<key>key</key>
+		<string>UnlockVol_enabled</string>
+		<key>label</key>
+		<string>Enabled</string>
+	</dict>
+    <dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerAlignment</key>
+        <integer>0</integer>
+        <key>label</key>
+        <string>Adjust when screen off</string>
+        <key>footerText</key>
+        <string>Allow ringer volume adjustment when screen is off.</string>
+      </dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<true/>
+		<key>defaults</key>
+		<string>com.apple.springboard</string>
+		<key>key</key>
+		<string>UnlockVol_screenOff</string>
+		<key>label</key>
+		<string>Enabled</string>
+	</dict>
+	<dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerAlignment</key>
+        <integer>0</integer>
+        <key>label</key>
+        <string>Wake device when screen off</string>
+        <key>footerText</key>
+        <string>Volume buttons can activate screen from screen off state. (like home and power button)</string>
+      </dict>
+	<dict>
+		<key>cell</key>
+		<string>PSSwitchCell</string>
+		<key>default</key>
+		<false/>
+		<key>defaults</key>
+		<string>com.apple.springboard</string>
+		<key>key</key>
+		<string>UnlockVol_wakeDevice</string>
+		<key>label</key>
+		<string>Enabled</string>
+	</dict>
+	<dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerAlignment</key>
+        <integer>0</integer>
+        <key>footerText</key>
+        <string>If the first option is enabled, the second option will not functional.</string>
+      </dict>
+	<dict>
+        <key>cell</key>
+        <string>PSGroupCell</string>
+        <key>footerAlignment</key>
+        <integer>1</integer>
+        <key>footerText</key>
+        <string>© 2013 - 2015 Thatchapon Unprasert
+(@PoomSmart)</string>
+      </dict>
+    </array>
+  </dict>
+</plist>
